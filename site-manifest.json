@@ -43,8 +43,8 @@
     },
     {
       "path": "host.js",
-      "bytes": 11711,
-      "sha256": "e8ee288188f55563927b3519b57c8a9d72577d9c36ec585a68c171613a906464"
+      "bytes": 11783,
+      "sha256": "a5f39bbde54591113adb4565f1e798bac52b528a2dd7af64112073c1121f4c79"
     },
     {
       "path": "index.html",
@@ -60,6 +60,11 @@
       "path": "map-loader.js",
       "bytes": 2091,
       "sha256": "8210716dd7e8d57b53dbeb0a7ed6b55f410991dca4e357e94d33d86e1d4aa956"
+    },
+    {
+      "path": "pool.js",
+      "bytes": 1484,
+      "sha256": "cf5a47e89c644accbfffd914b49c153719c42d7fdbf55ce0c2db0135fbc4c872"
     },
     {
       "path": "resource-routes.js",

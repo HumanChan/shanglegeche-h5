@@ -6,6 +6,7 @@ import {installSandboxMapLoader,installSandboxLevelContext} from './map-loader.j
 import {installResourceRoutes} from './resource-routes.js';
 import {createLevelEntries} from './level-picker.js';
 import {installSpeedControl,SPEED_OPTIONS} from './speed.js';
+import {installPoolAllocator} from './pool.js';
 
 const w=window, $=id=>document.getElementById(id);
 const state=w.__layah5={phase:'加载模块',errors:[],network:[],selection:null,uiChanges:0};
@@ -142,7 +143,7 @@ try{
  await new Promise((ok,no)=>{const script=document.createElement('script');script.src='modules.js';script.onload=ok;script.onerror=no;document.head.append(script);});
  requireModule('laya.core.min.js');installViewport(w);state.audio=installAudioGate(w);
  for(const id of ['libs/min/laya.html.min.js','libs/min/laya.ui.min.js','libs/min/laya.d3.min.js','libs/min/fairygui.min.js','libs/min/px.wasm.min.js','libs/min/utils.min.js','libs/min/gravityengine.mg.layats.min.js','libs/min/W.min.js','libs/min/ad.min.js'])requireModule(id);
- installAds(w);
+ installPoolAllocator(w);installAds(w);
  requireModule('libs/min/bundle.min.js');
 }catch(error){state.phase='启动失败';logError('启动',error);console.error(error);}
 finally{Object.assign(console,savedConsole);}
