@@ -42,14 +42,19 @@
       "sha256": "aa67b785959108b7e976d2a2f03a2d77c0643d238993567cf108c1eaa7ab80e9"
     },
     {
+      "path": "boot.js",
+      "bytes": 1575,
+      "sha256": "ed4bf3d66e452c531431338945fb58dbf5a1976c6dfae8abd046a943df381b80"
+    },
+    {
       "path": "host.js",
-      "bytes": 11783,
-      "sha256": "a5f39bbde54591113adb4565f1e798bac52b528a2dd7af64112073c1121f4c79"
+      "bytes": 11860,
+      "sha256": "36007ce1682f4f006e7832d242080021bcd29f0f933751e43aca87de67e06fc1"
     },
     {
       "path": "index.html",
       "bytes": 1642,
-      "sha256": "45d9e5708ceb370d4501f0bf7a3bdfee38869c3364aca5192587169b1f361f9b"
+      "sha256": "29c45c330c721086c9571dd883af95d7b4d784e9f3a49b38b7572166b404b9a2"
     },
     {
       "path": "level-picker.js",
@@ -85,6 +90,16 @@
       "path": "style.css",
       "bytes": 1968,
       "sha256": "bf3f292b5705217be8c7742fcbe539daf0508626455fbedc45dd1645f21c9dba"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 3203,
+      "sha256": "1f7efc92d57d1466d3d0c1eeca2e8dc89bfe4ac2dfe4d1ff3a188c8edff17f28"
+    },
+    {
+      "path": "texture.js",
+      "bytes": 312,
+      "sha256": "e6d13c787080b92fbf9b857636b0e5f352769756b77c9251de4ae7b97ca58e20"
     },
     {
       "path": "viewport.js",
@@ -17215,6 +17230,16 @@
       "path": ".nojekyll",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "startup.json",
+      "bytes": 164,
+      "sha256": "c33ae32351f7450ccae9baf71bd5fb3657a1bb0dfba8d9154a359890e1b73135"
+    },
+    {
+      "path": "startup.pack",
+      "bytes": 6279812,
+      "sha256": "4c9e0dd465b34d1156064d4850460716427eb92900f453df9c41a0d240e1df2f"
     }
   ]
 }
