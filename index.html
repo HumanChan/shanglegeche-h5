@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self' blob: data:; connect-src 'self'; script-src 'self' 'unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; media-src 'self' blob: data:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>上了个车 · 本地 H5</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="boot-status" role="status">正在加载游戏…</div>
+<nav id="local-tools" aria-label="本地游戏工具"><select id="game-speed" aria-label="游戏倍速" disabled></select><button id="open-levels">选关</button><button id="restart-level">重玩</button><button id="open-home">首页</button></nav>
+<div id="sandbox-label" hidden>本地地图体验 · 不影响主线进度</div>
+<dialog id="level-picker"><header><h1>本地选关</h1><button id="close-levels" aria-label="关闭选关">×</button></header><p id="level-summary"></p><input id="level-search" placeholder="搜索关数或地图名" aria-label="搜索关卡"><div id="level-list"></div><p class="hint">仅列出原包及已补齐的真实地图。未被主线引用的地图独立体验。</p></dialog>
+<dialog id="missing-level"><h1>该关地图尚未提供</h1><p id="missing-message"></p><button id="missing-retry">重玩上一关</button><button id="missing-select">本地选关</button><button id="missing-home">返回首页</button></dialog>
+<script type="module" src="host.js"></script>
+</body></html>
