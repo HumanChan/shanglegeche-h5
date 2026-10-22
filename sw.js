@@ -1,4 +1,4 @@
-// 资源包版本：4c9e0dd465b34d11
+// 资源包版本：74b0c919550fbfb7
 const scope=self.registration.scope;
 const prefix='slgc-pages:'+new URL(scope).pathname+':';
 let current;

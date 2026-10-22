@@ -48,8 +48,8 @@
     },
     {
       "path": "host.js",
-      "bytes": 11860,
-      "sha256": "36007ce1682f4f006e7832d242080021bcd29f0f933751e43aca87de67e06fc1"
+      "bytes": 11943,
+      "sha256": "681d5a9418cc75a8efff8e1bf448df32d487a2e1b00a9338c979f58d9550eeb9"
     },
     {
       "path": "index.html",
@@ -65,6 +65,11 @@
       "path": "map-loader.js",
       "bytes": 2091,
       "sha256": "8210716dd7e8d57b53dbeb0a7ed6b55f410991dca4e357e94d33d86e1d4aa956"
+    },
+    {
+      "path": "movement.js",
+      "bytes": 676,
+      "sha256": "94d1003a657d6e22edb4ba1062333976905d3060775b435c726be1f69938ca05"
     },
     {
       "path": "pool.js",
@@ -94,7 +99,7 @@
     {
       "path": "sw.js",
       "bytes": 3203,
-      "sha256": "1f7efc92d57d1466d3d0c1eeca2e8dc89bfe4ac2dfe4d1ff3a188c8edff17f28"
+      "sha256": "94cf657b96f8374de2eef5eab7ded9f4127c3ae64de0d140f97ceae908961987"
     },
     {
       "path": "texture.js",
@@ -17234,12 +17239,12 @@
     {
       "path": "startup.json",
       "bytes": 164,
-      "sha256": "c33ae32351f7450ccae9baf71bd5fb3657a1bb0dfba8d9154a359890e1b73135"
+      "sha256": "41e30a0fad4562235e0037dc55fbc37556ff016288c7bf0ba7074fc472fd074b"
     },
     {
       "path": "startup.pack",
-      "bytes": 6279812,
-      "sha256": "4c9e0dd465b34d1156064d4850460716427eb92900f453df9c41a0d240e1df2f"
+      "bytes": 6280467,
+      "sha256": "74b0c919550fbfb7cd019ccf567997ba048eecaecdfa1fb08a679dc4495d18ee"
     }
   ]
 }

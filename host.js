@@ -8,6 +8,7 @@ import {createLevelEntries} from './level-picker.js';
 import {installSpeedControl,SPEED_OPTIONS} from './speed.js';
 import {installPoolAllocator} from './pool.js';
 import {installTextureFactory} from './texture.js';
+import {installMovementSafety} from './movement.js';
 
 const w=window, $=id=>document.getElementById(id);
 const state=w.__layah5={phase:'加载模块',errors:[],network:[],selection:null,uiChanges:0};
@@ -79,6 +80,7 @@ $('missing-home').onclick=()=>{$('missing-level').close();pauseDialog(false);ref
 w.__installLayaH5=api=>{
   refs=api;state.refs=api;
   state.speed=installSpeedControl(api,localStorage);
+  installMovementSafety(api);
   const speedSelect=$('game-speed');
   for(const value of SPEED_OPTIONS)speedSelect.add(new Option(value==='original'?'原版速度':value+' 倍速',value));
   speedSelect.value=state.speed.value;speedSelect.disabled=false;
